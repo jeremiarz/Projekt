@@ -32,9 +32,9 @@ namespace Szachy
                 Console.WriteLine("OPERACJA NIEDOZWOLONA");
         }
 
-        public Pionek(string nazwa, string kolor, int pozycja_x, int pozycja_y)
+        public Pionek(string kolor, int pozycja_x, int pozycja_y)
         {
-            this.nazwa = nazwa;
+            this.nazwa = "Pionek";
             this.kolor = kolor;
             this.pozycja_x = pozycja_x;
             this.pozycja_y = pozycja_y;
@@ -56,9 +56,9 @@ namespace Szachy
                 Console.WriteLine("OPERACJA NIEDOZWOLONA");
         }
 
-        public Krol(string nazwa, string kolor, int pozycja_x, int pozycja_y)
+        public Krol(string kolor, int pozycja_x, int pozycja_y)
         {
-            this.nazwa = nazwa;
+            this.nazwa = "Krol";
             this.kolor = kolor;
             this.pozycja_x = pozycja_x;
             this.pozycja_y = pozycja_y;
@@ -80,9 +80,9 @@ namespace Szachy
                 Console.WriteLine("OPERACJA NIEDOZWOLONA");
         }
 
-        public Wieza(string nazwa, string kolor, int pozycja_x, int pozycja_y)
+        public Wieza(string kolor, int pozycja_x, int pozycja_y)
         {
-            this.nazwa = nazwa;
+            this.nazwa = "Wieza";
             this.kolor = kolor;
             this.pozycja_x = pozycja_x;
             this.pozycja_y = pozycja_y;
@@ -112,9 +112,9 @@ namespace Szachy
                 Console.WriteLine("OPERACJA NIEDOZWOLONA");
         }
 
-        public Krolowa(string nazwa, string kolor, int pozycja_x, int pozycja_y)
+        public Krolowa(string kolor, int pozycja_x, int pozycja_y)
         {
-            this.nazwa = nazwa;
+            this.nazwa = "Krola";
             this.kolor = kolor;
             this.pozycja_x = pozycja_x;
             this.pozycja_y = pozycja_y;

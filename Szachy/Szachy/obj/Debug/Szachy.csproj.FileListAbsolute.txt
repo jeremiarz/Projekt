@@ -4,3 +4,9 @@ C:\Users\jerem\Desktop\Szachy\Szachy\bin\Debug\Szachy.exe
 C:\Users\jerem\Desktop\Szachy\Szachy\bin\Debug\Szachy.pdb
 C:\Users\jerem\Desktop\Szachy\Szachy\obj\Debug\Szachy.exe
 C:\Users\jerem\Desktop\Szachy\Szachy\obj\Debug\Szachy.pdb
+C:\Users\jerem\Documents\GitHub\Projekt\Szachy\Szachy\bin\Debug\Szachy.exe.config
+C:\Users\jerem\Documents\GitHub\Projekt\Szachy\Szachy\obj\Debug\Szachy.exe
+C:\Users\jerem\Documents\GitHub\Projekt\Szachy\Szachy\obj\Debug\Szachy.pdb
+C:\Users\jerem\Documents\GitHub\Projekt\Szachy\Szachy\bin\Debug\Szachy.exe
+C:\Users\jerem\Documents\GitHub\Projekt\Szachy\Szachy\bin\Debug\Szachy.pdb
+C:\Users\jerem\Documents\GitHub\Projekt\Szachy\Szachy\obj\Debug\Szachy.csprojResolveAssemblyReference.cache
