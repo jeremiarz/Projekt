@@ -34,7 +34,7 @@ namespace Szachy
 
         public Pionek(string kolor, int pozycja_x, int pozycja_y)
         {
-            this.nazwa = "Pionek";
+            this.nazwa = "Pio";
             this.kolor = kolor;
             this.pozycja_x = pozycja_x;
             this.pozycja_y = pozycja_y;

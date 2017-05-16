@@ -54,15 +54,20 @@ namespace Szachy
             Console.WriteLine("SZACHOWNICA");
             Szachownica szach = new Szachownica();
             szach.DodajPionek("Pionek", "bialy", "A2");
+            szach.DodajPionek("Pionek", "bialy", "B2");
+            szach.DodajPionek("Pionek", "bialy", "C2");
+            szach.DodajPionek("Pionek", "bialy", "D2");
+            szach.DodajPionek("Pionek", "bialy", "E2");
+            szach.DodajPionek("Pionek", "bialy", "F2");
             szach.DodajPionek("Wieza", "bialy", "A1");
             szach.DodajPionek("Wieza", "bialy", "H1");
             szach.DodajPionek("Krol", "bialy", "D1");
             szach.DodajPionek("Krolowa", "bialy", "E1");
-            szach.CoNaPolu("A2");
+            /*szach.CoNaPolu("A2");
             szach.CoNaPolu("A1");
             szach.CoNaPolu("H1");
             szach.CoNaPolu("D1");
-            szach.CoNaPolu("E1");
+            szach.CoNaPolu("E1");*/
 
             Console.Write("\n");
             szach.NarysujSzachownice();
@@ -72,6 +77,14 @@ namespace Szachy
         }
     }
 }
+
+//WSPOLRZEDNE SZACHOWNICY
+//   0  1  3  4 ... 7
+// 0[ ][ ][ ][ ]...[ ]
+// 1[ ][ ][ ][ ]...[ ]
+// 2[ ][ ][ ][ ]...[ ]
+//   :  :  :  : ::: :
+// 7[ ][ ][ ][ ]...[ ]
 
 //KONWERTER ZNAKOW NA LICZBY
 /*int x;
