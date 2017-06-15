@@ -19,22 +19,26 @@ namespace Szachy
     {
         static void Main(string[] args)
         {
-
             //inicjalizacja szachownicy
-            Szachownica szachownica = new Szachownica();
+            //Szachownica szachownica = new Szachownica();
             //ustawienie pionkow
-            szachownica.UstawPionki();
+            //szachownica.UstawPionki();
+            Szachownica.InstancjaSzachownicy.UstawPionki();
 
             //DELEGATA
-            Delegata przesuwanie = new Delegata(szachownica.Przesun);
+            //Delegata przesuwanie = new Delegata(szachownica.Przesun);
+            Delegata przesuwanie = new Delegata(Szachownica.InstancjaSzachownicy.Przesun);
             przesuwanie += RuchNaPlanszy;
 
-            szachownica.NarysujSzachownice();
+            //szachownica.NarysujSzachownice();
+            Szachownica.InstancjaSzachownicy.NarysujSzachownice();
             przesuwanie("A2", "A4");
-            szachownica.NarysujSzachownice();
-
+            //szachownica.NarysujSzachownice();
+            Szachownica.InstancjaSzachownicy.NarysujSzachownice();
+            
             Console.WriteLine();
-            szachownica.IloscPionkow();
+            //szachownica.IloscPionkow();
+            Szachownica.InstancjaSzachownicy.IloscPionkow();
             Console.ReadKey();
 
         }

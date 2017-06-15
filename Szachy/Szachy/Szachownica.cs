@@ -8,12 +8,29 @@ using System.Threading.Tasks;
  * LABORATORIUM 2
  * Klasa Szachownica.
  * Możliwość pobrania i zapisania figury na wybranym polu.
+ * 
+ * LABORATORIUM 4
+ * Implementacja wzorca projektowego Szachownica na podstawie wzorca ToolBox
  */
 
 namespace Szachy
 {
-    public class Szachownica
+    sealed class Szachownica
     {
+        private static Szachownica instancja = new Szachownica();
+        private Szachownica() {
+            szachownica = new Figura[8, 8];
+            ilosc_pionkow = 0;
+        }
+        static Szachownica() { }
+        public static Szachownica InstancjaSzachownicy
+        {
+            get
+            {
+                return instancja;
+            }
+        }
+
         public int ilosc_pionkow;
         public Figura[,] szachownica;
 
@@ -118,12 +135,12 @@ namespace Szachy
             Console.WriteLine("Ilosc pionkow na szachownicy to: " + ilosc_pionkow);
         }
 
-        public Szachownica()
+        /*public Szachownica()
         {
             //tworzenie tablicy szachownicy
             szachownica = new Figura[8, 8];
             ilosc_pionkow = 0;
-        }
+        }*/
 
     }
 }
